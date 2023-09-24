@@ -14,10 +14,11 @@ body{
 }
 /* background image */
 div.container {
-    width: 500px;
-    height: 500px;
-    margin: auto;
-    background-color:hsla(0, 0%, 6%, 0.8);
+    width: 95%;
+    height: 95%;
+    margin: 10px auto;
+
+    background-color:hsla(0, 0%, 6%, 0.4);
     
 
 }
@@ -54,14 +55,16 @@ div.header p {
 /* form css */
 form {
   font-family: Arial, Helvetica, sans-serif;
-  background-color:hsla(0, 0%, 6%, 0.8);
+  background-color:hsla(0, 0%, 6%, 0.78);
   /* text-align: center; */
   margin: auto;
   color: white;
   width: 450px;
-  padding: 40px;
+  padding: 10px 40px 10px 40px;
   font-weight: 100px;
-  margin-top: 20px;
+  margin:20px auto 0px auto;
+ 
+
  
 }
 
@@ -72,8 +75,8 @@ form .kutu {
 }
 
 form section{
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
 }
 
 section textarea{
@@ -87,5 +90,6 @@ section.btn {
     padding: 5px;
     text-align: center;
     font-size: 15px;
-    margin: auto;
+    margin:10px auto 10px auto;
+    
 }
