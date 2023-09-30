@@ -19,6 +19,7 @@ div.container {
     margin: 10px auto;
 
     background-color:hsla(0, 0%, 6%, 0.4);
+   
     
 
 }
@@ -43,9 +44,9 @@ div.header span {
   color: #e50914;
   text-shadow: 1px 1px #e50914;
 }
-h1::first-letter {
+/* h1::first-letter {
   font-size: 54px;
-}
+} */
 
 div.header p {
   font-family: "Times New Roman", Times, serif;
@@ -57,12 +58,14 @@ form {
   font-family: Arial, Helvetica, sans-serif;
   background-color:hsla(0, 0%, 6%, 0.78);
   /* text-align: center; */
-  margin: auto;
+ 
   color: white;
   width: 450px;
   padding: 10px 40px 10px 40px;
   font-weight: 100px;
   margin:20px auto 0px auto;
+
+ 
  
 
  
@@ -72,6 +75,7 @@ form .kutu {
   height: 40px;
   width: 360px;
   margin: 10px 0;
+  padding: 1%;
 }
 
 form section{
